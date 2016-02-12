@@ -15,7 +15,7 @@ public class AdditionTest {
  {
      Addition ob=new Addition();
 
-     assertEquals(10,ob.add(10,20));
+     assertEquals(30,ob.add(10,20));
  }
 
     @Test
