@@ -24,7 +24,7 @@ public class AdditionTest {
     {
         Addition ob=new Addition();
 
-        assertEquals(10,ob.sub(20,10));
+        assertEquals(15,ob.sub(20,10));
     }
 
 
