@@ -2,6 +2,8 @@ group 'HRP001'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
+apply plugin: 'jacoco'
+
 
 sourceCompatibility = 1.5
 
@@ -13,6 +15,12 @@ jar
 
                     }
         }
+
+jacocoTestReport {
+    group = "Reporting"
+    description = "Generate Jacoco coverage reports after running tests."
+    additionalSourceDirs = files(sourceSets.main.allJava.srcDirs)
+}
 
 repositories {
     mavenCentral()
