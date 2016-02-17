@@ -56,14 +56,6 @@ task jacocoTestReport(type: JacocoReport, dependsOn: "test") {
 }
 //end Jacoco config
 
-
-
-/*jacocoTestReport {
-    group = "Reporting"
-    description = "Generate Jacoco coverage reports after running tests."
-    additionalSourceDirs = files(sourceSets.main.allJava.srcDirs)
-}*/
-
 repositories {
     mavenCentral()
 }
