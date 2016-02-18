@@ -20,7 +20,7 @@ jacocoTestReport {
     jacocoTestReport {
 
         additionalSourceDirs = files(sourceSets.main.allJava.srcDirs)
-        sourceDirectories = fileTree(dir: 'scr/main/java', include: 'com/bitwiseglobal/addition')
+        sourceDirectories = fileTree(dir: 'src/main/java', include: 'com/bitwiseglobal/addition')
         classDirectories = fileTree(dir: 'build/classes/main', include: 'com/bitwiseglobal/addition')
 
         reports {
