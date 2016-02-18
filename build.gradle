@@ -19,8 +19,8 @@ jar
 jacocoTestReport {
     jacocoTestReport {
 
-        sourceDirectories = fileTree(dir: 'src/main/java/com/bitwiseglobal/addition/Addition.java')
-        classDirectories = fileTree(dir: 'build/classes/main/com/bitwiseglobal/addition/Addition.class')
+        sourceDirectories = fileTree(dir: 'src/main/java/com/bitwiseglobal/addition')
+        classDirectories = fileTree(dir: 'build/classes/main/com/bitwiseglobal/addition')
 
         reports {
             html.enabled = true
